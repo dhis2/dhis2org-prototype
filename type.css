@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+:root {
+  --font-heading: 'Rubik', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --body-small: 1rem/1.5 'Inter';
+  --body: 1.125rem/1.5 'Inter';
+  --body-large: 1.3125rem/1.5 'Inter';
+  --heading-1: 2.75rem/1.2 'Rubik', sans-serif;
+  --heading-2: 2.25rem/1.2 'Rubik', sans-serif;
+  --heading-3: 1.875rem/1.2 'Rubik', sans-serif;
+  --heading-4: 1.5rem/1.2 'Rubik', sans-serif;
+}
+
+.type-body {
+  font: var(--body);
+}
+
+.type-body-small {
+  font: var(--body-small);
+}
+
+.type-body-large {
+  font: var(--body-large);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+h1 {
+  font: var(--heading-1);
+}
+
+h2 {
+  font: var(--heading-2);
+}
+
+h3 {
+  font: var(--heading-3);
+}
+
+h4 {
+  font: var(--heading-4);
+}
+
+a {
+  color: var(--grey900);
+}

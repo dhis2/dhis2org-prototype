@@ -1,0 +1,13 @@
+:root {
+  --grey900: #051841;
+  --grey800: rgba(5, 24, 65, 0.85);
+  --grey200: #e8edf2;
+  --grey100: #f8fafc;
+  --blue700: #0040a0;
+}
+
+/* color utility classes */
+
+.muted {
+  color: var(--grey800);
+}
