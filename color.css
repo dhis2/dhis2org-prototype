@@ -3,7 +3,11 @@
   --grey800: rgba(5, 24, 65, 0.85);
   --grey200: #e8edf2;
   --grey100: #f8fafc;
+  --blue900: #002152;
+  --blue800: #003585;
   --blue700: #0040a0;
+  --blue200: #ebf3ff;
+  --blue100: #f5f8fc;
 }
 
 /* color utility classes */
