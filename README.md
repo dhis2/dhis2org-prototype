@@ -6,3 +6,6 @@ The grid-system is [Bootstrap grid](https://github.com/twbs/bootstrap). All comp
 
 ### Functionality
 This is **not** a functional prototype. Interactive elements, like menu items, do not work. This prototype should be used for design specs only: spacing, colors, fonts etc.
+
+### Markup
+These examples are not intended to be examples of or suggestions regarding HTML markup/structure.
