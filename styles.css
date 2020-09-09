@@ -519,8 +519,8 @@ tr.in-table-heading td {
   margin-bottom: 1.5rem;
 }
 
-.field .control input[type='text'],
-.field .control textarea {
+input[type='text'],
+textarea {
   border: 1px solid var(--grey800);
   padding: 8px;
   border-radius: 4px;
@@ -566,4 +566,22 @@ button.button-primary:hover {
 
 button.button-primary:active {
   background: var(--blue900);
+}
+
+/* SEARCH */
+
+.search-enabled {
+  width: 80%;
+}
+
+.nav-search-wrapper {
+  display: flex;
+  flex: 2;
+}
+.nav-search-wrapper .button-primary {
+  margin-right: 4px;
+}
+#main-search-input {
+  flex: 2;
+  margin-right: 8px;
 }
