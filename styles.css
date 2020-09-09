@@ -585,3 +585,16 @@ button.button-primary:active {
   flex: 2;
   margin-right: 8px;
 }
+
+.search-result {
+  border-bottom: 1px solid var(--grey200);
+  padding: 32px 0;
+}
+
+.search-result-title {
+  margin: 0.25rem 0;
+}
+
+.search-result-body {
+  margin: 0.25rem 0;
+}
