@@ -280,6 +280,10 @@ h1.page-title {
   height: 64px;
 }
 
+.main-nav-right {
+  padding-right: 16px;
+}
+
 .main-nav-logo {
   padding: 0 12px;
   margin-right: 12px;
@@ -306,8 +310,7 @@ h1.page-title {
 }
 
 .nav-item-search,
-.nav-item-language,
-.nav-item-download {
+.nav-item-language {
   margin-right: 16px;
 }
 
