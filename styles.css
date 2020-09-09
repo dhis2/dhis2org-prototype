@@ -512,10 +512,13 @@ table.table-large td {
 }
 
 table {
-  width: 100%;
   border-color: var(--grey200);
   border-collapse: collapse;
   margin: 32px 0 48px;
+}
+
+table.table-full {
+  width: 100%;
 }
 
 table thead tr th {
