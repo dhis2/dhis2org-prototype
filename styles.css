@@ -296,12 +296,19 @@ h1.page-title {
 .main-nav-item {
   font-size: 0.9375rem;
   padding: 0px 8px;
+  height: 64px;
+  display: flex;
+  align-items: center;
   margin-right: 16px;
   color: var(--grey800);
+  box-sizing: border-box;
 }
 
 .main-nav-item-selected {
-  text-decoration: underline;
+  color: var(--grey900);
+  border-top: 4px solid transparent;
+  /* The top border is a hack to stop the align-items:center from misaligning when only having a border-bottom. */
+  border-bottom: 4px solid var(--blue700);
 }
 
 .main-nav-item:hover {
@@ -310,8 +317,8 @@ h1.page-title {
 }
 
 .main-nav-item:after {
-  margin-left: 6px;
-  content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjUiIHZpZXdCb3g9IjAgMCA4IDUiPgogIDxwb2x5Z29uIGZpbGw9IiMwNTE4NDEiIGZpbGwtb3BhY2l0eT0iLjg1MyIgcG9pbnRzPSI2Mi40NyAzMS40NyA2My41MyAzMi41MyA2MCAzNi4wNjEgNTYuNDcgMzIuNTMgNTcuNTMgMzEuNDcgNjAgMzMuOTM5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTYgLTMxKSIvPgo8L3N2Zz4K');
+  margin-left: 2px;
+  content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ii8+CiAgICA8cGF0aCBmaWxsPSIjMDUxODQxIiBmaWxsLW9wYWNpdHk9Ii44NTMiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTQuMTQ2NDQ2NjEsNy4xNDY0NDY2MSBDNC4zMjAwMTI5Niw2Ljk3Mjg4MDI2IDQuNTg5NDM3MzYsNi45NTM1OTUxMSA0Ljc4NDMwNTUsNy4wODg1OTExNiBMNC44NTM1NTMzOSw3LjE0NjQ0NjYxIEw4LDEwLjI5MyBMMTEuMTQ2NDQ2Niw3LjE0NjQ0NjYxIEMxMS4zMjAwMTMsNi45NzI4ODAyNiAxMS41ODk0Mzc0LDYuOTUzNTk1MTEgMTEuNzg0MzA1NSw3LjA4ODU5MTE2IEwxMS44NTM1NTM0LDcuMTQ2NDQ2NjEgQzEyLjAyNzExOTcsNy4zMjAwMTI5NiAxMi4wNDY0MDQ5LDcuNTg5NDM3MzYgMTEuOTExNDA4OCw3Ljc4NDMwNTUgTDExLjg1MzU1MzQsNy44NTM1NTMzOSBMOC4zNTM1NTMzOSwxMS4zNTM1NTM0IEM4LjE3OTk4NzA0LDExLjUyNzExOTcgNy45MTA1NjI2NCwxMS41NDY0MDQ5IDcuNzE1Njk0NSwxMS40MTE0MDg4IEw3LjY0NjQ0NjYxLDExLjM1MzU1MzQgTDQuMTQ2NDQ2NjEsNy44NTM1NTMzOSBDMy45NTExODQ0Niw3LjY1ODI5MTI0IDMuOTUxMTg0NDYsNy4zNDE3MDg3NiA0LjE0NjQ0NjYxLDcuMTQ2NDQ2NjEgWiIvPgogIDwvZz4KPC9zdmc+Cg==');
 }
 
 .nav-item-search,
