@@ -213,6 +213,7 @@ h1.page-title {
   display: flex;
   border-radius: 4px;
   margin-bottom: 4px;
+  cursor: pointer;
 }
 
 .dropdown-nav-item:hover {
