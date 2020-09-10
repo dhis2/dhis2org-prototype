@@ -190,6 +190,7 @@ h1.page-title {
 .dropdown-nav-wrapper {
   padding: 24px 0;
   background: white;
+  border-top: 1px solid var(--grey200);
   box-shadow: 0 16px 24px 0 rgba(25, 28, 34, 0.08);
 }
 
@@ -295,6 +296,10 @@ h1.page-title {
   padding: 0px 8px;
   margin-right: 16px;
   color: var(--grey800);
+}
+
+.main-nav-item-selected {
+  text-decoration: underline;
 }
 
 .main-nav-item:hover {
