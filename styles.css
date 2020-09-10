@@ -577,10 +577,19 @@ textarea {
   border-radius: 4px;
 }
 
+.text-field-error input[type='text'],
+.textarea-errror {
+  border: 1px solid var(--red700);
+}
+
 .field .field-help {
   font-size: 0.875rem;
   margin: 4px 0 0 0;
   color: var(--grey800);
+}
+
+.field .field-error {
+  color: var(--red700);
 }
 
 .field button:not(:first-of-type) {
