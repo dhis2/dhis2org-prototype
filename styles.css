@@ -147,6 +147,10 @@ body {
   margin: 0;
 }
 
+.mobile-menu-intro {
+  margin: 16px 0;
+}
+
 /* DOMAIN NAVBAR */
 
 .domain-nav {
