@@ -496,7 +496,7 @@ a.footer-link:hover {
 }
 
 a.footer-sub-link {
-  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .footer-sub {
@@ -505,18 +505,32 @@ a.footer-sub-link {
   padding: 16px 0 0 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-sub-left {
   display: flex;
+  font-size: 0.8125rem;
+  align-items: center;
 }
 
 .footer-sub-right {
-  text-align: right;
+  display: flex;
+  align-content: flex-end;
 }
 
-.footer-sub-right a.footer-sub-link {
-  margin-right: 0;
+.footer-sub #toplink::before {
+  content: '|';
+  color: var(--grey200);
+  margin-right: 24px;
+}
+
+a.footer-uio {
+  display: flex;
+  align-items: center;
+}
+a.footer-uio img {
+  margin-right: 12px;
 }
 
 /* HERO */
