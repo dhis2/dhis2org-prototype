@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="24" height="24" fill="#FFF"/>
+    <g stroke="#051841" stroke-width="2" transform="translate(1)">
+      <polyline points="0 0 0 23 23 23"/>
+      <polyline points="0 23 9 14 13 18 21 10"/>
+      <line x1="3" x2="17" y1="3" y2="3"/>
+      <line x1="3" x2="13" y1="7" y2="7"/>
+    </g>
+  </g>
+</svg>

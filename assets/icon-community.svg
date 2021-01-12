@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill="none" fill-rule="evenodd" stroke="#051841" stroke-width="2" transform="translate(2 1)">
+    <circle cx="3.5" cy="3.5" r="2.5"/>
+    <circle cx="16.5" cy="13.5" r="2.5"/>
+    <path d="M0 12L0 11C-1.3527075e-16 9.8954305.8954305 9 2 9L5 9C6.1045695 9 7 9.8954305 7 11L7 12 7 12M13 22L13 21C13 19.8954305 13.8954305 19 15 19L18 19C19.1045695 19 20 19.8954305 20 21L20 22 20 22"/>
+    <polyline points="2 15 2 19 9 19"/>
+    <polyline points="18 7 18 3 11 3"/>
+  </g>
+</svg>
